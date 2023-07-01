@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    font-weight: 600;
+    list-style: none;
+}
+
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+.portfolio {
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:0 400px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.shapka {
+    font-size: 30px;
+    width: 400px;
+
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 0 35px;
+}
+
+.ssilka {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1110px;
+    margin-top: 80px;
+
+}
+.section {
+    margin: 0;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    color :black;
+}
+
+.card {
+    background-color: white;
+    max-width: 540px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 40px rgba(126,155,189,0.35);
+}
+
+.card:last-child, .card:nth-last-child(2){
+    margin-bottom: 0;
+
+}
+
+
+
+.cardimg {
+    margin-bottom: 20px;
+    width: 500px;
+    height: 300px;
+
+}
+
+.cardimg2 {
+    margin-bottom: 20px;
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.cardtitle {
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000;
+
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000;
+}
+
+
+.cardswrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.text {
+    padding: 70px;
+    padding-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 50px;
+    color:#000;
+    background: url(../img/MyText.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: gradient;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gradient {
+
+    0% {
+        background-position: 0 0;
+
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 0;
+
+    }
+    
+}
+
+.button {
+    margin-left: 100px;
+    display: inline-block;
+    background: #8C959D;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
